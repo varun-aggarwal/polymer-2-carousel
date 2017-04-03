@@ -1,0 +1,32 @@
+"*":
+  "atom-beautify":
+    general:
+      analytics: false
+      beautifyEntireFileOnSave: false
+    html:
+      default_beautifier: "Pretty Diff"
+      end_with_newline: true
+      indent_inner_html: true
+      preserve_newlines: false
+    js:
+      jslint_happy: true
+  core: {}
+  editor:
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "d7332093-300e-35ee-7860-1154361710fe"
+  linter:
+    showErrorPanel: false
+  "linter-htmlhint": {}
+  "linter-jshint":
+    # Path of the `jshint` executable
+    #executablePath: '/path/to/bundled/jshint'
+
+    # Lint JavaScript inside `<script>` blocks in HTML or PHP files
+    lintInlineJavaScript: true
+
+    # Disable linter when no `.jshintrc` is found in project
+    disableWhenNoJshintrcFileInPath: false
+  welcome:
+    showOnStartup: false
